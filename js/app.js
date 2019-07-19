@@ -20,25 +20,28 @@ document.addEventListener('DOMContentLoaded', () => {
       [0,1],
       [0,2],
       [0,3],
-      //turn
+      //turn on 90 degrees
       [
         [-1,1],
         [0,0],
         [1,-1],
         [2,-2]
       ],
+      //turn on 180 degrees
       [
         [1,-1],
         [0,0],
         [-1,1],
         [-2,2]
       ],
+      //turn on 270 degrees
       [
         [-1,1],
         [0,0],
         [1,-1],
         [2,-2]
       ],
+      //turn on 360 degrees
       [
         [1,-1],
         [0,0],
@@ -489,7 +492,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
   }
-  
+
   startBtn.addEventListener('click', function (){
     startGame()
     music.play()
