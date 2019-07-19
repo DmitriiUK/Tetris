@@ -3,11 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>SEI Project 1: Tetris</title>
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
     <script src="js/app.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Tetris</h1>
-    <h1>Game</h1>
+    <div class="container">
+      <div class="main">
+        <div class="your">
+          <p>Your Score: </p>
+          <span class="scoreInputEnd">0</span>
+          <p>Game Over!</p>
+        </div>
+      </div>
+      <div class="mainBoards">
+        <div class="scoreBoard">
+            <p>score:</p>
+            <span class="scoreInput">0</span>
+        </div>
+        <div class="linesBoard">
+            <p>lines:</p>
+            <span class="linesInput">0</span>
+        </div>
+        <div class="buttons">
+            <button class="start">start</button>
+            <button class="reset">reset</button>
+        </div>
+      </div>
+      <!-- <div class="show-score">
+        <button class="start">start</button>
+      </div> -->
+    </div>
   </body>
 </html>

@@ -1,5 +1,100 @@
-body {
-  background-color: blue;
-  color: white; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Serif Text', serif; }
+  * body {
+    background-color: #002b36; }
+    * body .container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 150px auto;
+      width: 1008px;
+      border: 2px solid black; }
+      * body .container .main {
+        position: relative;
+        overflow: hidden;
+        width: 502px;
+        height: 1002px;
+        background-color: #073642; }
+        * body .container .main .your {
+          display: none;
+          flex-wrap: wrap;
+          margin: 0 auto;
+          background-color: #073642;
+          border: 1px solid blue;
+          width: 500px;
+          height: 1000px;
+          justify-content: center;
+          font-size: 50px;
+          border: 2px solid black; }
+          * body .container .main .your p {
+            width: 100%;
+            text-align: center;
+            margin-top: 300px;
+            margin-bottom: 50px;
+            color: #b58900; }
+          * body .container .main .your p:last-child {
+            margin-top: 50px;
+            margin-bottom: 300px;
+            color: #6c71c4; }
+          * body .container .main .your .scoreInputEnd {
+            color: #859900; }
+        * body .container .main .tetris {
+          width: 500px;
+          height: 1200px;
+          display: flex;
+          overflow: hidden;
+          flex-wrap: wrap;
+          position: absolute;
+          bottom: 0; }
+          * body .container .main .tetris .cell {
+            width: calc(100% / 10);
+            height: calc(100% / 24);
+            border: 0.5px solid #fdf6e3;
+            background-color: #073642; }
+          * body .container .main .tetris .figure {
+            background-color: #d33682;
+            border: 1px solid #6c71c4; }
+          * body .container .main .tetris .set {
+            background-color: #cb4b16;
+            border: 1px solid #b58900; }
+      * body .container .mainBoards {
+        display: flex;
+        flex-wrap: wrap;
+        width: 502px;
+        height: 1002px; }
+        * body .container .mainBoards .scoreBoard, * body .container .mainBoards .linesBoard {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          background-color: #6c71c4;
+          border: 5px solid black;
+          width: 100%;
+          height: 25%;
+          font-size: 50px; }
+          * body .container .mainBoards .scoreBoard p, * body .container .mainBoards .linesBoard p {
+            padding-top: 20px;
+            width: 100%;
+            text-align: center; }
+          * body .container .mainBoards .scoreBoard .scoreInput, * body .container .mainBoards .linesBoard .scoreInput {
+            color: #859900;
+            font-size: 60px; }
+        * body .container .mainBoards .linesBoard {
+          background-color: #6c71c4; }
+          * body .container .mainBoards .linesBoard .linesInput {
+            color: #2aa198;
+            font-size: 60px; }
+        * body .container .mainBoards .buttons {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          height: 50%; }
+          * body .container .mainBoards .buttons button {
+            width: 100%;
+            background-color: #586e75;
+            color: black;
+            font-size: 50px;
+            border: 5px solid black; }
 
 /*# sourceMappingURL=style.css.map */
