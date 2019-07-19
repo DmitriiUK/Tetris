@@ -22,7 +22,7 @@ Made with Vanilla Javascript
 * Press Start Button to open a game
 
 [![button](https://user-images.githubusercontent.com/46447270/61528382-83474800-aa16-11e9-8db2-d13b2ebb0a74.png
-)](https://github.com/DmitriiUK/Tetris)
+)]( https://dmitriiuk.github.io/Tetris/.)
 
 
 ### Introduction
